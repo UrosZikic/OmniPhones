@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: poppins, arial;
+
+  background: linear-gradient(
+    to bottom right,
+
+    #342070,
+    #233280,
+    #233280,
+    #342070
+  );
+  color: #eee9fc;
+
+  padding-top: 6rem;
+}
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1;
+}
+strong {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+li {
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+ul {
+  list-style: none;
+}
