@@ -1,0 +1,163 @@
+@media (max-width: 49em) {
+  .carousel-flex {
+    flex-direction: column;
+  }
+  .carousel-flex img {
+    width: 100%;
+    height: 65%;
+  }
+  .carousel-flex p {
+    padding: 5rem;
+  }
+  /* featured */
+  .featured-cards strong {
+    font-size: 1.33rem;
+  }
+  .cta {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 45em) {
+  nav {
+    flex-direction: column;
+    height: 7.5rem;
+    padding-bottom: 1rem;
+  }
+  .nav-left {
+    padding-left: 0rem;
+  }
+  form {
+    padding-right: 0rem;
+  }
+
+  /* featured */
+  .featured-cards {
+    flex-direction: column;
+    padding: 10rem;
+    padding-top: 0;
+    padding-bottom: 1rem;
+    gap: 2rem;
+  }
+  .card:hover {
+    transform: scale(1);
+  }
+
+  /* category flex */
+  .category-flex {
+    flex-direction: column;
+    padding: 4rem;
+    padding-top: 0;
+  }
+
+  .category-info p {
+    font-size: 1.45rem;
+  }
+  /* cta */
+  .section-cta {
+    padding: 0;
+  }
+
+  .cta {
+    margin: 0 auto;
+    margin-bottom: 4rem;
+  }
+  .cta p {
+    font-size: 1.45rem;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .cta-text-box {
+    padding: 5rem;
+  }
+  /* footer */
+  footer {
+    height: 8rem;
+  }
+  footer p {
+    font-size: 1.45rem;
+  }
+}
+@media (max-width: 27em) {
+  .featured-cards {
+    padding: 4rem;
+  }
+
+  .carousel-flex p {
+    font-size: 1.45rem;
+    padding: 3rem;
+  }
+  .category-info {
+    padding: 1rem;
+  }
+  .cta {
+    padding: 2rem;
+  }
+  .cta h2 {
+    font-size: 2.5rem;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer p {
+    font-size: 1.15rem;
+  }
+  .logo {
+    height: 35%;
+    width: 35%;
+  }
+  .cta-form input {
+    font-size: 1.2rem;
+  }
+  .cta-form select {
+    font-size: 1.2rem;
+  }
+  .btn--form {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 24em) {
+  .category-info p {
+    font-size: 1.35rem;
+  }
+  .cta p {
+    font-size: 1.35rem;
+  }
+  .cta h2 {
+    font-size: 2rem;
+  }
+  .card p {
+    font-size: 1.4rem;
+  }
+  .nav-link a {
+    font-size: 1.4rem;
+  }
+  .nav-select {
+    font-size: 1.4rem;
+  }
+  .nav-link strong {
+    font-size: 1.4rem;
+  }
+  .web-logo {
+    font-size: 1.4rem;
+  }
+  .web-logo {
+    font-size: 1.4rem;
+  }
+  .offer-list li a {
+    font-size: 1rem;
+  }
+  .cta-form input {
+    font-size: 1rem;
+  }
+  .cta-form select {
+    font-size: 1rem;
+  }
+  .cta-form label {
+    font-size: 1.1rem;
+  }
+  footer {
+    height: 8rem;
+  }
+}

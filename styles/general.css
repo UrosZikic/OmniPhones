@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: poppins, roboto, arial;
+  padding-top: 5rem;
+
+  background: linear-gradient(
+    to bottom right,
+    #181a1d,
+    #342070,
+    #233280,
+    #a61e4d,
+    #233280,
+    #233280,
+    #342070,
+    #181a1d
+  );
+}
+
+.card {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+}
+.card:hover {
+  transform: scale(1.5);
+  z-index: 999;
+}
+a {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f8f9fa;
+  text-decoration: none;
+}
