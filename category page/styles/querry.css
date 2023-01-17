@@ -1,0 +1,143 @@
+@media (max-width: 90em) {
+  header p {
+    padding: 0 20rem;
+  }
+}
+
+@media (max-width: 48em) {
+  header p {
+    padding: 0 10rem;
+  }
+  .main-container {
+    flex-direction: column;
+  }
+  .open-btn {
+    display: inline-block;
+  }
+  .test {
+    position: relative;
+  }
+  aside {
+    position: absolute;
+    left: 0;
+    width: 20rem;
+    top: 0;
+    bottom: 0;
+    background-color: white;
+    z-index: 999;
+    display: flex;
+
+    align-items: center;
+    transform: translateX(-100%);
+    transition: all 1s;
+    opacity: 0.96;
+  }
+  .aside-form {
+    gap: 2.5rem;
+    color: black;
+  }
+  .close-btn {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-text-box {
+    padding: 5rem 0;
+  }
+  .cta-main p {
+    padding: 1rem 10rem;
+  }
+}
+@media (max-width: 42em) {
+  header p {
+    padding: 0 2rem;
+  }
+  header h1 {
+    font-size: 3rem;
+  }
+
+  .main-grid {
+    padding: 0.5rem 1rem;
+  }
+  .test {
+    padding: 1rem 0.5rem;
+  }
+  .aside-form {
+    gap: 2.5rem;
+  }
+  .list-style {
+    padding: 0rem;
+  }
+  footer {
+    flex-direction: column;
+    height: 10rem;
+  }
+  footer p {
+    font-size: 1.5rem;
+  }
+  .section-cta {
+    padding: 0;
+  }
+}
+@media (max-width: 34em) {
+  .nav {
+    flex-direction: column;
+    height: 7rem;
+  }
+  .nav-left {
+    padding: 0;
+  }
+  .cta-main p {
+    padding: 0rem;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .cta-text-box {
+    padding-bottom: 10rem;
+  }
+  footer p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 30em) {
+  .main-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 23em) {
+  header p {
+    padding: 0 1rem;
+  }
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  .main-grid-info strong {
+    font-size: 1.4rem;
+  }
+  .cta-main {
+    margin: 5rem auto;
+    padding: 1rem;
+  }
+  .cta-main h2 {
+    font-size: 2.1rem;
+  }
+  .cta-text-box {
+    padding-bottom: 7rem;
+  }
+  footer {
+    margin-top: 5rem;
+    height: 10rem;
+    flex-direction: column;
+  }
+  footer p {
+    font-size: 1.15rem;
+  }
+}

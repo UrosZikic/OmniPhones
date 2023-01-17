@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: poppins, arial;
+  background: linear-gradient(
+    to bottom right,
+    #181a1d,
+    #342070,
+    #233280,
+    #a61e4d,
+    #233280,
+    #342070,
+    #181a1d
+  );
+  color: #eee9fc;
+}
+h1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+p {
+  font-size: 1.7rem;
+}
+strong {
+  font-size: 1.5rem;
+}
+a {
+  text-decoration: none;
+}
+
+form label {
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
+form input[type="button"] {
+  font-family: poppins;
+}
+.filled-star {
+  font-size: 1.7rem;
+}
+.test {
+  background-image: url("../assets/headphoneImages/3.jpg");
+  background-size: 100% 100%;
+  padding: 5rem;
+}
