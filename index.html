@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Uros Zikic" />
+    <meta name="description" content="Online electrical equipment store" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/querry.css" />
+    <title>HeadSet Mart</title>
+    <link rel="icon" type="image/x-icon" href="logos/headset-sharp.svg" />
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav>
+      <div class="nav-left nav-link">
+       <a href="index.html">
+        <strong
+          >Omni <ion-icon name="infinite-outline" class="web-logo"></ion-icon
+        ></strong>
+      </a>
+        <a class="nav-home" href="#">Home</a>
+        <a class="nav-about" href="#about">About</a>
+        <div class="vanilla-dropdown-menu">
+          <div class="nav-select">
+            Our Offers
+            <ion-icon name="chevron-down-outline" class="offer-icon"></ion-icon>
+            <ul class="offer-list">
+              <li class="list-item-one">
+                <a href="#sale" class="list-item-three">Sale</a>
+              </li>
+              
+              <li class="list-item-two">
+                <a href="#categories" class="list-item-three">categories</a>
+              </li>
+            
+
+              <li class="list-item-three">
+                <a href="#register" class="list-item-three">Register</a>
+              </li>
+            
+            
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <form>
+          <ion-icon name="search-outline" class="magnifier-icon"></ion-icon>
+          <input type="text" class="nav-browse" placeholder="Browse" />
+
+          <input type="button" value="Search" class="search-btn" />
+        </form>
+      </div>
+    </nav>
+    <!-- hero section -->
+    <div id="about">
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" >
+          <div class="carousel-flex carousel-height">
+            <p>
+              Introducing the Omni headphones – the perfect blend of style and
+              sound quality. With a sleek and modern design, these headphones
+              are sure to turn heads wherever you go.
+            </p>
+            <img src="headphone images/1.jpg" class="" alt="black headphones" />
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-flex carousel-height">
+            <p>
+              the Omni headphones also deliver crystal clear audio and powerful
+              bass, making them perfect for music lovers and audiophiles alike.
+              Whether you're on the go or relaxing at home, these headphones
+              will provide the perfect soundtrack for any activity.
+            </p>
+            <img src="headphone images/1.jpg" class="" alt="black headphones" />
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-flex carousel-height">
+            <p>
+              with a comfortable and secure fit, you can wear them all day
+              without any discomfort. Upgrade your listening experience with the
+              Omni headphones – order now and experience the difference!"
+            </p>
+            <img src="headphone images/1.jpg" class="" alt="black headphones" />
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-target="#carouselExampleIndicators"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-target="#carouselExampleIndicators"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
+    </div>
+  </div>
+
+    <!-- section featured -->
+    <section class="featured" id="sale">
+      <h2 class="featured-headline">Featured Products</h2>
+      <div class="featured-cards">
+        <!-- 1st card -->
+        <div class="card">
+          <a href="product page/product.html" style="color: black;">
+          <img src="headphone images/4.jpg" alt="black headphones" />
+          <div class="card-information">
+            <strong>Classic Headphones</strong>
+            <p>&#36; 9.99</p>
+            <ion-icon
+              name="star-sharp"
+              class="filled-star star-padding"
+            ></ion-icon>
+            <ion-icon name="star-sharp" class="filled-star"></ion-icon>
+            <ion-icon name="star-outline" class="empty-star"></ion-icon>
+            <ion-icon name="star-outline" class="empty-star"></ion-icon>
+            <ion-icon name="star-outline" class="empty-star"></ion-icon>
+          </div>
+        </a>
+        </div>
+        <!-- 2nd card -->
+        <div class="card">
+          <a href="product page/product.html" style="color: black;">
+          <img src="headphone images/4.jpg" alt="black headphones" />
+          <div class="card-information">
+            <strong>Super Headphones</strong>
+            <p>&#36; 19.99</p>
+            <ion-icon
+              name="star-sharp"
+              class="filled-star star-padding"
+            ></ion-icon>
+            <ion-icon name="star-sharp" class="filled-star"></ion-icon>
+            <ion-icon name="star-sharp" class="filled-star"></ion-icon>
+            <ion-icon name="star-outline" class="empty-star"></ion-icon>
+            <ion-icon name="star-outline" class="empty-star"></ion-icon>
+          </div>
+          </a>
+        </div>
+        <!-- 3rd card -->
+        <div class="card">
+          <a href="product page/product.html" style="color: black;">
+          <img src="headphone images/4.jpg" alt="black headphones" />
+          <div class="card-information">
+            <strong>Professional Headphones</strong>
+            <p>&#36; 29.99</p>
+            <ion-icon
+              name="star-sharp"
+              class="filled-star star-padding"
+            ></ion-icon>
+            <ion-icon name="star-sharp" class="filled-star"></ion-icon>
+            <ion-icon name="star-sharp" class="filled-star"></ion-icon>
+            <ion-icon name="star-sharp" class="filled-star"></ion-icon>
+            <ion-icon name="star-outline" class="empty-star"></ion-icon>
+          </div>
+          </a>
+        </div>
+        <!-- 4th card -->
+        <div class="card">
+          <a href="product page/product.html" style="color: black;">
+          <img src="headphone images/4.jpg" alt="black headphones" />
+          <div class="card-information">
+            <strong>Omni Headphones</strong>
+            <p>&#36; 39.99</p>
+            <ion-icon
+              name="star-sharp"
+              class="filled-star star-padding"
+            ></ion-icon>
+            <ion-icon name="star-sharp" class="filled-star"></ion-icon>
+            <ion-icon name="star-sharp" class="filled-star"></ion-icon>
+            <ion-icon name="star-sharp" class="filled-star"></ion-icon>
+            <ion-icon name="star-sharp" class="filled-star"></ion-icon>
+          </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- category section -->
+    <section class="category" id="categories">
+      <div class="category-info">
+        <h2>Categories</h2>
+        <p>
+          Welcome to our webshop! Here, you'll find a wide variety of products
+          organized into easy-to-browse categories. Take a look at our selection
+          of headphones and find your match! Need help finding what you're
+          looking for? Use the search bar or contact our customer service team
+          for assistance. Start shopping now and find everything you need in one
+          convenient place!"
+        </p>
+      </div>
+
+      <div class="category-flex">
+        <div class="card">
+          <a href="category page/category.html">
+          <img src="headphone images/4.jpg" alt="black headphones" />
+          <p>Over-ear headphones</p>
+          </a>
+        </div>
+        <!-- 2nd card -->
+        <div class="card">
+          <a href="category page/category.html">
+          <img src="headphone images/4.jpg" alt="black headphones" />       
+          <p>Noise-cancelling headphones</p>
+        </a>
+       
+        </div>
+        <!-- 3rd card -->
+        <div class="card">
+          <a href="category page/category.html">
+          <img src="headphone images/4.jpg" alt="black headphones" />
+          <p>Earbuds</p>
+        </a>
+        </div>
+        <!-- 4th card -->
+        <div class="card">
+          <a href="category page/category.html">
+          <img src="headphone images/4.jpg" alt="black headphones" />
+          <p>Wireless headphones</p>
+        </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA section -->
+   <!-- CTA section -->
+ <section class="cta-main" id="register">
+  <h2>Listen to music the way it was intended</h2>
+  <p>
+    Don't miss out on the latest deals and discounts on our top-quality
+    products! Click here to start shopping now and take advantage of our
+    limited-time offers. With fast and secure shipping, easy returns, and
+    top-notch customer service, there's no risk in giving us a try. Shop now
+    and see why we're the go-to destination for all your shopping needs!
+  </p>
+  <button class="contactUs">Contact Us</button>
+    <!-- contact us/ cta -->
+    <div class="section-cta" id="cta">
+      <div class="container-fluid">
+        <div class="cta">
+          <ion-icon name="close-outline" class="exitModal"></ion-icon>
+          <div class="cta-text-box">
+            <h2 class="heading-secondary">Contact us now!</h2>
+            <p class="cta-text">
+             The headphones of your dreams are waiting for you. Sign up and start off your business today!
+            </p>
+            <form class="cta-form" action="#">
+              <div>
+                <label for="full-name">Full Name</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="John Smith"
+                  required
+                />
+              </div>
+              <div>
+                <label for="email">Email Address</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="me@example.com"
+                  required
+                />
+              </div>
+              <div>
+                <label for="select-where">Where did you hear from us?</label>
+                <select id="select-where" required>
+                  <option  value="">Please Choose one option</option>
+                  <option  value="friends">Friends and family</option>
+                  <option value="youtube">Youtube video</option>
+                  <option value="podcast">Podcast</options>
+                  <option value="ad">Facebook ad</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+  
+              <button class="btn btn--form">Sign up now</button>
+            </form>
+          </div>
+          <div
+            class="cta-img-box"
+            role="img"
+            aria-label="a laptop on a table"
+          ></div>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+    <div class="logos">
+      <div class="logo-slider">
+        <div class="slide">
+          <img
+            src="logos/business-insider.png"
+            alt="business logo"
+            class="logo"
+          />
+        </div>
+        <div class="slide">
+          <img src="logos/forbes.png" alt="business logo" class="logo" />
+        </div>
+        <div class="slide">
+          <img src="logos/techcrunch.png" alt="business logo" class="logo" />
+        </div>
+        <div class="slide">
+          <img
+            src="logos/the-new-york-times.png"
+            alt="business logo"
+            class="logo"
+          />
+        </div>
+        <!-- 2nd -->
+        <div class="slide">
+          <img
+            src="logos/business-insider.png"
+            alt="business logo"
+            class="logo"
+          />
+        </div>
+        <div class="slide">
+          <img src="logos/forbes.png" alt="business logo" class="logo" />
+        </div>
+        <div class="slide">
+          <img src="logos/techcrunch.png" alt="business logo" class="logo" />
+        </div>
+        <div class="slide">
+          <img
+            src="logos/the-new-york-times.png"
+            alt="business logo"
+            class="logo"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <p>Copyright &#169; 2022 by HeadSet Mart. All rights reserved.</p>
+
+      <div class="logo-links">
+        <a href="https://www.facebook.com" target="_blank">
+          <ion-icon name="logo-facebook" class="logo-link"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+          <ion-icon name="logo-instagram" class="logo-link"></ion-icon>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank">
+          <ion-icon name="logo-linkedin" class="logo-link"></ion-icon>
+        </a>
+        <a href="https://www.youtube.com" target="_blank">
+          <ion-icon name="logo-youtube" class="logo-link"></ion-icon>
+        </a>
+      </div>
+    </footer>
+
+    <!-- MyScript -->
+    <script>
+      var cta = document.querySelector(".section-cta");
+      const contactUs = (document.querySelector(".contactUs").onclick = () => {
+        cta.style.display = "block";
+      });
+      const exitModal = (document.querySelector(".exitModal").onclick = () => {
+        cta.style.display = "none";
+      });
+    </script>
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ion icon -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
